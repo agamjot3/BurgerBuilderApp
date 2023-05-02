@@ -3,7 +3,7 @@ version: '3.7'
 services:
   frontend:
     container_name: frontend
-    build: ./frontend
+    image: 361956036556.dkr.ecr.ap-south-1.amazonaws.com/dashboard-cil-prod:latest
     volumes:
       - './frontend:/app'
       - '/app/node_modules'
